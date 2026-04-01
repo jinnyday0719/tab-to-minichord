@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tab to minichord">
+    <title>minichord note finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="logo-title"><span class="brand-bold">minichord</span> note finder</h1>
+    <div class="center-wrapper">
+        <div class="top-line"></div>
+        <textarea class="input-box" placeholder="입력" autofocus maxlength="1500"></textarea>
+        <div class="mode-indicator">tab mode</div>
+        <div class="center-line"></div>
+    </div>
+
+    <div class="output-wrapper">
+        <div class="action-buttons hidden">
+            <button class="action-btn play-btn" aria-label="재생">
+                <svg viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z" />
+                </svg>
+            </button>
+            <button class="action-btn copy-btn" aria-label="복사">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" />
+                </svg>
+            </button>
+        </div>
+        <textarea class="output-box" placeholder="엔터를 눌러 변환 결과를 확인하세요." readonly></textarea>
+    </div>
+
+    <script src="chordLogic.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
