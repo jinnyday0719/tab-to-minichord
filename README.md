@@ -23,4 +23,4 @@ https://minichord.com
 <img width="642" height="227" alt="2026-04-01_14-28-13" src="https://github.com/user-attachments/assets/cf846245-12d1-4a3c-a5be-05c3c6f47587" />
 <br>
 <br>
-<img width="342" height="222" alt="image" src="https://github.com/user-attachments/assets/3ad6d757-fa69-4992-aa6b-8447e23892b8" />
+<img width="642" height="222" alt="image" src="https://github.com/user-attachments/assets/3ad6d757-fa69-4992-aa6b-8447e23892b8" />
